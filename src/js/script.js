@@ -24,6 +24,14 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop: $(hash).offset().top},800,function(){});
     });
 
+    // تنفيذ العداد علي الصنف timer
+    $('.timer').countTo();
+
+    // التحقق من صحة حقول الإدخال
+    $(function(){
+        $("#contact-form").validate();
+    });
+
 });
 
 

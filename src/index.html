@@ -13,37 +13,37 @@
     </head>
     <body data-spy="scroll" data-target="#navBar">
         <div class="container-fluid">
-            <!-- بداية رأس الصفحة -->
-    <!-- بداية الشريط العلوي -->
-        <nav class="navbar fixed-top navbar-expand-lg" id="navBar">
-            <div class="container">
-                <a class="navbar-brand" href=".">
-                    <img src="./images/logo.png" alt="المبدعون العرب">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa fa-bars fa-lg"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                        <a class="nav-link scroll" href="#services">خدمات الشركة</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link scroll" href="#projects">المشاريع السابقة</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link scroll" href="#statistics">إحصائيات الشركة</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link scroll" href="#contact">تواصل معنا</a>
-                        </li>
-                    </ul>
-                </div>
+            <!-- بداية الشريط العلوي -->
+            <div class="row">
+                <nav class="navbar fixed-top navbar-expand-lg" id="navBar">
+                    <div class="container">
+                        <a class="navbar-brand" href=".">
+                            <img src="./images/logo.png" alt="المبدعون العرب">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa fa-bars fa-lg"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav nav-pills mr-auto">
+                                <li class="nav-item">
+                                <a class="nav-link scroll" href="#services">خدمات الشركة</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link scroll" href="#projects">المشاريع السابقة</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link scroll" href="#statistics">إحصائيات الشركة</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link scroll" href="#contact">تواصل معنا</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
-        </nav>
 
-    <!-- نهاية الشريط العلوي -->
-                <!-- header -->
+            <!-- رأس الصفحة -->
             <header>
                 <div class="overlay">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -58,22 +58,23 @@
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                <i class="fa fa-angle-left fa-lg"></i>
+                            <i class="fa fa-angle-left fa-lg"></i>
                         </a>
                         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                <i class="fa fa-angle-right fa-lg"></i>
+                            <i class="fa fa-angle-right fa-lg"></i>
                         </a>
                     </div>
                 </div>
             </header>
 
+            <!-- قسم خدمات الشركة -->
             <section id="services">
                 <div class="container">
                     <div class="title text-center">
                         <h3>خدمات الشركة</h3>
                     </div>
                     <div class="row text-center">
-                        <div class="col">
+                        <div class="col-md-4 col-sm-12">
                             <div class="card">
                                 <img class="card-img-top mr-auto ml-auto" src="./images/service1.png" alt="تصميم المواقع والتطبيقات">
                                 <div class="card-body">
@@ -82,7 +83,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-md-4 col-sm-12">
                             <div class="card">
                                 <img class="card-img-top mr-auto ml-auto" src="./images/service2.png" alt="برمجة المواقع الإلكترونية">
                                 <div class="card-body">
@@ -91,7 +92,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-md-4 col-sm-12">
                             <div class="card">
                                 <img class="card-img-top mr-auto ml-auto" src="./images/service3.png" alt="إنتاج ومونتاج الفديو">
                                 <div class="card-body">
@@ -104,15 +105,16 @@
                 </div>
             </section>
 
+            <!-- المشاريع -->
             <section id="projects">
                 <div class="container">
                     <div class="title text-center">
-                        <h3>أعمال الشركة</h3>
+                        <h4>أعمال الشركة</h4>
                     </div>
                     <div class="row gallery no-gutters">
-                        <div class="col row no-gutters">
-                            <div class="col">
-                                <a href="#image1">
+                        <div class="col-md row no-gutters">
+                            <div class="col-sm">
+                                <a class="project-photo" href="#image1">
                                     <img src="./images/small-1.png" alt="project1">
                                     <div class="hover">
                                         <i class="fa fa-search-plus"></i>
@@ -120,10 +122,10 @@
                                 </a>
 
                                 <div class="overlay-gallery row" id="image1">
-                                    <div class="col">
+                                    <div class="col-lg col-sm-5 gallery-img">
                                         <img src="./images/1.png" alt="image1">
                                     </div>
-                                    <div class="col gallery-text">
+                                    <div class="col-lg col-sm-7 gallery-text">
                                         <h3>تصميم فديو لمؤسسة الابداع لتطوير
                                             وتصميم الويب</h3>
                                         <ul class="list-item">
@@ -147,8 +149,8 @@
                                 </div>
 
                             </div>
-                            <div class="col">
-                                <a href="#image2">
+                            <div class="col-sm">
+                                <a class="project-photo" href="#image2">
                                     <img src="./images/small-2.png" alt="project2">
                                     <div class="hover">
                                         <i class="fa fa-search-plus"></i>
@@ -156,10 +158,10 @@
                                 </a>
 
                                 <div class="overlay-gallery row" id="image2">
-                                    <div class="col">
+                                    <div class="col-sm gallery-img">
                                         <img src="./images/2.png" alt="image2">
                                     </div>
-                                    <div class="col gallery-text">
+                                    <div class="col-sm gallery-text">
                                         <h3>تصميم فديو لمؤسسة الابداع لتطوير
                                             وتصميم الويب</h3>
                                         <ul class="list-item">
@@ -184,9 +186,9 @@
 
                             </div>
                         </div>
-                        <div class="col row no-gutters">
-                            <div class="col">
-                                <a href="#image3">
+                        <div class="col-md row no-gutters">
+                            <div class="col-sm">
+                                <a class="project-photo" href="#image3">
                                     <img src="./images/small-3.png" alt="project3">
                                     <div class="hover">
                                         <i class="fa fa-search-plus"></i>
@@ -194,10 +196,10 @@
                                 </a>
 
                                 <div class="overlay-gallery row" id="image3">
-                                    <div class="col">
+                                    <div class="col-sm gallery-img">
                                         <img src="./images/3.png" alt="image3">
                                     </div>
-                                    <div class="col gallery-text">
+                                    <div class="col-sm gallery-text">
                                         <h3>تصميم فديو لمؤسسة الابداع لتطوير
                                             وتصميم الويب</h3>
                                         <ul class="list-item">
@@ -221,8 +223,8 @@
                                 </div>
 
                             </div>
-                            <div class="col">
-                                <a href="#image4">
+                            <div class="col-sm">
+                                <a class="project-photo" href="#image4">
                                     <img src="./images/small-4.png" alt="project4">
                                     <div class="hover">
                                         <i class="fa fa-search-plus"></i>
@@ -230,10 +232,10 @@
                                 </a>
 
                                 <div class="overlay-gallery row" id="image4">
-                                    <div class="col">
+                                    <div class="col-sm gallery-img">
                                         <img src="./images/4.png" alt="image4">
                                     </div>
-                                    <div class="col gallery-text">
+                                    <div class="col-sm gallery-text">
                                         <h3>تصميم فديو لمؤسسة الابداع لتطوير
                                             وتصميم الويب</h3>
                                         <ul class="list-item">
@@ -260,9 +262,9 @@
                         </div>  
                     </div>
                     <div class="row gallery no-gutters">
-                        <div class="col row no-gutters">
-                            <div class="col">
-                                <a href="#image5">
+                        <div class="col-md row no-gutters">
+                            <div class="col-sm">
+                                <a class="project-photo" href="#image5">
                                     <img src="./images/small-5.png" alt="project5">
                                     <div class="hover">
                                         <i class="fa fa-search-plus"></i>
@@ -270,10 +272,10 @@
                                 </a>
 
                                 <div class="overlay-gallery row" id="image5">
-                                    <div class="col">
+                                    <div class="col-sm gallery-img">
                                         <img src="./images/5.png" alt="image5">
                                     </div>
-                                    <div class="col gallery-text">
+                                    <div class="col-sm gallery-text">
                                         <h3>تصميم فديو لمؤسسة الابداع لتطوير
                                             وتصميم الويب</h3>
                                         <ul class="list-item">
@@ -297,8 +299,8 @@
                                 </div>
 
                             </div>
-                            <div class="col">
-                                <a href="#image6">
+                            <div class="col-sm">
+                                <a class="project-photo" href="#image6">
                                     <img src="./images/small-6.png" alt="project6">
                                     <div class="hover">
                                         <i class="fa fa-search-plus"></i>
@@ -306,10 +308,10 @@
                                 </a>
 
                                 <div class="overlay-gallery row" id="image6">
-                                    <div class="col">
+                                    <div class="col-sm gallery-img">
                                         <img src="./images/6.png" alt="image6">
                                     </div>
-                                    <div class="col gallery-text">
+                                    <div class="col-sm gallery-text">
                                         <h3>تصميم فديو لمؤسسة الابداع لتطوير
                                             وتصميم الويب</h3>
                                         <ul class="list-item">
@@ -334,9 +336,9 @@
 
                             </div>
                         </div>
-                        <div class="col row no-gutters">
-                            <div class="col">
-                                <a href="#image7">
+                        <div class="col-md row no-gutters">
+                            <div class="col-sm">
+                                <a class="project-photo" href="#image7">
                                     <img src="./images/small-7.png" alt="project7">
                                     <div class="hover">
                                         <i class="fa fa-search-plus"></i>
@@ -344,10 +346,10 @@
                                 </a>
 
                                 <div class="overlay-gallery row" id="image7">
-                                    <div class="col">
+                                    <div class="col-sm gallery-img">
                                         <img src="./images/7.png" alt="image7">
                                     </div>
-                                    <div class="col gallery-text">
+                                    <div class="col-sm gallery-text">
                                         <h3>تصميم فديو لمؤسسة الابداع لتطوير
                                             وتصميم الويب</h3>
                                         <ul class="list-item">
@@ -371,8 +373,8 @@
                                 </div>
 
                             </div>
-                            <div class="col">
-                                <a href="#image8">
+                            <div class="col-sm">
+                                <a class="project-photo" href="#image8">
                                     <img src="./images/small-8.png" alt="project8">
                                     <div class="hover">
                                         <i class="fa fa-search-plus"></i>
@@ -380,10 +382,10 @@
                                 </a>
 
                                 <div class="overlay-gallery row" id="image8">
-                                    <div class="col">
+                                    <div class="col-sm gallery-img">
                                         <img src="./images/8.png" alt="image8">
                                     </div>
-                                    <div class="col gallery-text">
+                                    <div class="col-sm gallery-text">
                                         <h3>تصميم فديو لمؤسسة الابداع لتطوير
                                             وتصميم الويب</h3>
                                         <ul class="list-item">
@@ -412,61 +414,172 @@
                 </div>
             </section>
             
-
-            <div style="padding:500px 0;" id="statistics">statistics</div>
-            <div style="padding:500px 0;" id="contact">contact</div>
-            <!-- ذيل الصفحة -->
-            <!-- <div class="row" id="footer">
-                <div class="container">
-                    <div class="row">
-                        <div id="social-icons" class="center">
-                            <a href="#">
-                                <i class="fa fa-facebook fa-lg"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-twitter fa-lg"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-google-plus fa-lg"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-pinterest fa-lg"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-linkedin fa-lg"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row rights">
-                        <div class="container hidden-xs">
-                            <div class="pull-left">
-                                <p>جميع الحقوق محفوظة<a href="." class="sm-head"> لإسم الموقع </a>©2018</p>
+            <!-- قسم إحصائيات الشركة -->
+            <section id="statistics">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="state">
+                                    <img src="./images/state1.png" alt="">
+                                    <div class="count">
+                                        <span class="timer" data-refresh-interval="1" data-from="150" data-to="250" data-speed="1000"></span>
+                                    </div>
+                                    <p>موقع إلكتروني</p>
+                                </div>
                             </div>
-                            <div class="pull-right">
-                                <a class="condition" href="#">الشروط والأحكام</a>
-                                <a class="privacy" href="#"><span>I</span>  سياسة الخصوصية  <span>I</span></a>
-                                <a class="condition" href="#">اتفاقية المستخدم</a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="state">
+                                    <img src="./images/state2.png" alt="">
+                                    <div class="count">
+                                        <span class="timer" data-refresh-interval="1" data-from="50" data-to="100" data-speed="1000"></span>
+                                    </div>
+                                    <p>تطبيق موبيل</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="container visible-xs">
-                            <div class="center">
-                                <p>جميع الحقوق محفوظة<a href="." class="sm-head"> لإسم الموقع </a>©2018</p>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="state">
+                                    <img src="./images/state3.png" alt="">
+                                    <div class="count">
+                                        <span class="timer" data-refresh-interval="1" data-from="9000" data-to="10000" data-speed="1000"></span>
+                                    </div>
+                                    <p>مستخدم</p>
+                                </div>
                             </div>
-                            <div class="center">
-                                <a class="condition" href="#">الشروط والأحكام</a>
-                                <a class="privacy" href="#"><span>I</span>  سياسة الخصوصية  <span>I</span></a>
-                                <a class="condition" href="#">اتفاقية المستخدم</a>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="state">
+                                    <img src="./images/state4.png" alt="">
+                                    <div class="count">
+                                        <span class="timer" data-refresh-interval="1" data-from="0" data-to="30" data-speed="1000"></span>
+                                    </div>
+                                    <p>فيديو مونتاج</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </section>
+
+            <!-- قسم تواصل معنا -->
+            <section id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6" id="map">
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="address">
+                                <h3>عنوان الشركة</h3>
+                                <p><i class="fa fa-map-marker"></i>الولايات المتحدة الأمريكية ولاية سانفرانسيسكو ميدان الاوبرا</p>
+                                <p><i class="fa fa-map-marker"></i>الامارات العربية المتحدة فى منقطة بن راشد</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="contact-us">
+                        <div class="title text-center">
+                            <h3>تواصل معنا</h3>
+                        </div>
+                        <form id="contact-form">
+                            <div class="form-row justify-content-md-center">
+                                <div class="col-lg-8 col-md-10">
+                                    <div class="form-row">
+                                        <div class="col-md form-group form-group-name">
+                                            <input type="text" id="cname" name="name" minlength="2" class="form-group form-control custom-form-control form-control-lg" placeholder="الإسم" required>
+                                        </div>
+                                        <div class="col-md form-group form-group-email">
+                                            <input type="email" id="cemail" name="email" class="form-control custom-form-control form-control-lg" placeholder="البريد الإلكتروني" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="custom-texterea-control form-control" name="comment" id="ccomment" rows="4" placeholder="الرسالة" required></textarea>
+                                    </div>  
+                                    <button class="submit form-submit" type="submit" value="submit">إرسال</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="about">
+                    <div class="container">
+                        <div class="row justify-content-md-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about">
+                                    <h3>عن الشركة</h3>
+                                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي </p>
+                                    <div class="row">
+                                        <ul class="social-icons list-inline">
+                                            <li class="list-inline-item">
+                                            <a href="#">
+                                                <i class="fa fa-facebook fa-lg"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#">
+                                                <i class="fa fa-pinterest fa-lg"></i>                                                    
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#">
+                                                <i class="fa fa-google-plus fa-lg"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#">
+                                                <i class="fa fa-twitter fa-lg"></i>                                                    
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#">
+                                                <i class="fa fa-linkedin fa-lg"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-6">
+                                <div class="contact-us">
+                                    <h3>الإتصال بالشركة</h3>
+                                    <p><span><i class="fa fa-map-marker"></i></span>الامارات العربية المتحدة فى منقطة بن راشد</p>
+                                    <p><span><i class="fa fa-phone"></i></span>002-01010101010</p>
+                                    <p><span><i class="fa fa-envelope"></i></span>email@yahoo.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="rights text-center">
+                    <p>جميع الحقوق محفوظة</p>
+                </div>
+            </section>
 
         </div>
 
         <script src="./js/jquery.js"></script>
         <script src="./js/bootstrap.min.js"></script>
         <script src="./js/wow.js"></script>
+        <script src="./js/jquery.countTo.js"></script>
+        <script src="./js/jquery.validate.min.js"></script>
+        <script src="./js/messages_ar.min.js"></script>
         <script src="./js/script.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdemiw4S9yf6eIExhlIHm4TYYVNF8fG0s&callback=initMap"></script>
+        <script>
+            var address = {
+                lat:21.422514,
+                lng:39.826220
+            };
+            $(document).ready(function(){
+                var map = new google.maps.Map(document.getElementById('map'),{
+                    center: address,
+                    zoom:16
+                });
+            var marker = new google.maps.Marker({
+                map : map,
+                position : address,
+                title: "Masged Haram",
+                icon : './images/map_marker_icon.png',
+            });
+            });
+        </script>
     </body>
 </html>
